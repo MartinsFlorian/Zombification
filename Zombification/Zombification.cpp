@@ -1,9 +1,7 @@
-#include <iostream>
-#include <conio.h>
 #include "Employee.h"
 #include "Company.h"
 #include "Zombification.h"
-using namespace std;
+
 
 int main()
 {

@@ -1,6 +1,6 @@
 #pragma once
-#include <cstdlib>
-using namespace std;
+#include "GlobalHeader.h"
+
 
 
 enum ZombificationState
@@ -20,7 +20,7 @@ public:
 	ZombificationState state;
 
 	//Constructor
-	Employee(void);
+	Employee();
 	Employee(int employeeId, int nbrDayInfection, ZombificationState state);
 
 

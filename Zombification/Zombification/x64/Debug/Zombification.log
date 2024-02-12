@@ -1,3 +1,0 @@
-﻿  Employee.cpp
-C:\Users\f_martins3\Documents\GitHub\Zombification\Zombification\Employee.cpp(27,8): warning C4101: 'isZombie' : variable locale non référencée
-  Zombification.vcxproj -> C:\Users\f_martins3\Documents\GitHub\Zombification\x64\Debug\Zombification.exe

@@ -129,12 +129,18 @@
   <ItemGroup>
     <ClCompile Include="Company.cpp" />
     <ClCompile Include="Employee.cpp" />
+    <ClCompile Include="GlobalHeader.cpp" />
     <ClCompile Include="Zombification.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Company.h" />
     <ClInclude Include="Employee.h" />
+    <ClInclude Include="GlobalHeader.h" />
+    <ClInclude Include="resource.h" />
     <ClInclude Include="Zombification.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Zombification.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

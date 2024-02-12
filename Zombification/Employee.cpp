@@ -1,9 +1,8 @@
 #include "Employee.h"
-#include <iostream>
-#include "Company.h"
-#include "Zombification.h"
 
-Employee::Employee(void) 
+
+
+Employee::Employee() 
 {
 
 }
