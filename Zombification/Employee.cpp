@@ -24,19 +24,10 @@ void Employee::HandleInfection()
 	{
 		int rng;
 		bool isZombie;
-		int nbrZombie = 0;
+		int nbrZombie = 1;
 		rng = rand() % 101;
-		for (int i = 0 ; i < 100; i++) 
-		{
-			//isZombie = Zombification::company.employee[i].ChecklsZombified();
-
-			//if (isZombie) 
-			//{
-				//nbrZombie += 1;
-			//}
-		}
 		
-		if (rng <= 5)
+		if (rng >= 80)
 		{
 			SetNewZombificationState();
 		}
